@@ -12,7 +12,7 @@ import com.juancamargo.dsvendas.dto.SellerDTO;
 import com.juancamargo.dsvendas.service.SellerService;
 
 @RestController
-@RequestMapping(value="sellers")
+@RequestMapping(value="/sellers")
 public class SellersCotroller {
 	
 	@Autowired
